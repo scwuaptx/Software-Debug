@@ -1,0 +1,11 @@
+def getflag	
+	python flag = "SDG{"
+		while(i < 0x20)
+			python flag+=(gdb.execute('printf "%x",$eax',to_string=True))
+			if(i == 0x1f)		
+				python flag +="}"
+				python print flag
+			end
+			c
+		end
+end
