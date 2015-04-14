@@ -18,6 +18,11 @@ You are asked to generate the simplified failure-inducing input and document you
 + Generate the failure-inducing input
 
 ###How to use
+
++ Download and decompress xmlproc-0.70a.zip
++ Put the test.py to the directory
++ Then use the  command
+
 ```
 python test.py inputfile.xml
 ```
